@@ -16,4 +16,5 @@ function calculate () {
       answer = answer + numbertwo
     )
   document.getElementById('answer').innerHTML = answer
+  }
 }
