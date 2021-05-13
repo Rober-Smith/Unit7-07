@@ -11,9 +11,9 @@ function calculate () {
   numbertwo = document.getElementById('two').value
   numbertwo = parseInt(numbertwo)
 
-  for (counter = 0; counter < numberone; counter++)
-  (
-    answer = answer + numbertwo
-  )
+  for (counter = 0; counter < numberone; counter++) {
+    (
+      answer = answer + numbertwo
+    )
   document.getElementById('answer').innerHTML = answer
 }
